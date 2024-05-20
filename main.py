@@ -7,6 +7,8 @@ peso = str(input('Informe o seu peso:\n ')).replace(',','.')
 peso = float(peso)
 imc = peso/altura**2
 
+
+
 if imc >= 35:
     print(f'Você {nome} está comendo igual uma capivara raivosa, o seu IMC é {imc:,.2f}.')
 elif imc >= 30:
